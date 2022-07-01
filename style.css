@@ -1,6 +1,19 @@
+@font-face {
+    font-family: bangers;
+    src: url(font/Bangers.ttf);
+  }
+
 * {
     margin: 0;
     padding: 0;
+    background-color:#FDFF9A;
+    color:coral;
+    font-size: 16px;
+    font-size: 6vw;
+    text-align: center;
+    font-family: bangers;
+
+
 }
 .imgbox {
     display: grid;
@@ -10,4 +23,25 @@
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
+}
+
+.left{
+float: left;
+width: 12%;
+}
+
+.middle
+{
+float: left;
+width: 70%;
+}
+
+.right
+{
+float: left;
+width: 12%;
+}
+
+div{
+padding : 1%;
 }
